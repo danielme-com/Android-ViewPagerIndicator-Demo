@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ViewPagerIndicator Demo - danielme.com</string>
+    <string name="one">One</string>
+    <string name="two">Two</string>
+    <string name="three">Three</string>
+    <string name="four">Four</string>
+    <string name="five">Four</string>
+
+</resources>

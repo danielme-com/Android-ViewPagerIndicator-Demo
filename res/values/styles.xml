@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CustomTitlePageIndicator">
+
+        <!-- color de fondo de toda la barra en la que se muestra el nombre -->
+        <item name="android:background">#eaeaea</item>
+        <!-- color de la barra indicadora, debajo de los nombres -->
+        <item name="footerColor">#b2cb39</item>
+        <!-- ancho linea inferior del footer -->
+        <item name="footerLineHeight">2dp</item>
+        <!-- ancho de la barra inferior al nombre -->
+        <item name="footerIndicatorHeight">4dp</item>
+        <!-- estilo del indicador inferior "none","triangle","underline" -->
+        <item name="footerIndicatorStyle">underline</item>
+        <!-- color del texto -->
+        <item name="android:textColor">@android:color/black</item>
+        <!-- color del texto de la página seleccionada -->
+        <item name="selectedColor">@android:color/black</item>
+        <!-- aplica bold al texto seleccionado -->
+        <item name="selectedBold">true</item>
+    </style>
+    
+     <style name="AppTheme" parent="android:Theme.Light" >
+        <item name="vpiTabPageIndicatorStyle">@style/CustomTabPageIndicator</item>
+    </style>
+
+
+    <style name="CustomTabPageIndicator" parent="Widget.TabPageIndicator">
+        <item name="android:textAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="android:background">@drawable/custom_tab_indicator</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:divider">@drawable/custom_tab_indicator_divider</item>
+        <item name="android:dividerPadding">10dp</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:fadingEdgeLength">8dp</item>
+    </style>
+
+</resources>
